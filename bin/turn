@@ -11,8 +11,7 @@ index=input_to_index(index)
 if valid_move?(board,index) == false
   loop do
     turn(board)
-    if valid_move? == true
-    break    
+    if valid_move?(board,index) == true
+    break
   end
 end
- 
