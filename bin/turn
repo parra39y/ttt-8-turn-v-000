@@ -9,10 +9,16 @@ turn(board)
 index=gets.strip
 index=input_to_index(index)
 if valid_move?(board,index) == false
+
   loop do
     turn(board)
+    index=gets.strip
+    index=input_to_index(index)
+
     if valid_move?(board,index) == true
       break
     end
+
   end
+
 end
