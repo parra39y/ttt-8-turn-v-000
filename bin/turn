@@ -22,3 +22,4 @@ if valid_move?(board,index) == false
   end
 
 end
+move(board,index,character="X")
