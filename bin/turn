@@ -12,6 +12,7 @@ if valid_move?(board,index) == false
   loop do
     turn(board)
     if valid_move?(board,index) == true
-    break
+      break
+    end
   end
 end
